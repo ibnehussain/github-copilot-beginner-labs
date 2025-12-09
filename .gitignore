@@ -1,0 +1,17 @@
+# Ignore all files by default
+*
+
+# But include markdown files
+!*.md
+
+# Include directories (so we can traverse them)
+!*/
+
+# Include README files
+!README*
+
+# Include license files
+!LICENSE*
+
+# Include gitignore itself
+!.gitignore
